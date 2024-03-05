@@ -1,0 +1,10 @@
+#!/bin/bash
+if [ $# -eq 0 ]; then
+  echo "input number"
+  exit 1
+fi
+new_style_file="${1}-style.css"
+cp styles/4-style.css "styles/$new_style_file"
+git add "styles/$new_style_file"
+git commit -m "update $new_style_file"
+git push
