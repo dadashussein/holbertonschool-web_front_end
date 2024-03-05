@@ -232,8 +232,8 @@ template {
 [data-section-theme="dark"] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
-    --button-color: var(--color-white);
     background-color: var(--color-black);
+    --button-color: var(--color-white);
 }
 
 *,
@@ -255,6 +255,17 @@ body {
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
 }
 
 a:link {
@@ -287,16 +298,6 @@ a:active {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background: var(--button-hover-background);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
 }
 
 .visually-hidden {
