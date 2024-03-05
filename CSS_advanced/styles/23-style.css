@@ -396,7 +396,7 @@ ul.row {
     display: block;
 }
 
-.social-link>svg {
+.social-link > svg {
     fill: var(--text-color);
 }
 
@@ -404,8 +404,4 @@ ul.row {
     margin: 0;
     font-size: var(--font-size-small);
     color: var(--text-color);
-}
-
-img {
-    display: none;
 }
